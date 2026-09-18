@@ -1,0 +1,105 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box
+}
+
+html {
+   scroll-behavior: smooth; 
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background: #080808;
+   color: white;
+}
+
+section {
+   min-height: 100vh;
+   padding: 80px 10%;
+   display: flex;
+   align-items: center;
+}
+
+.sobre {
+   background: #080808;
+}
+
+.projeto {
+   background: #101010;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.contato {
+  background: #151515;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+div {
+    max-width: 900px;
+}
+
+.tag {
+   color: #00e5ff;
+   font-size: 14px;
+   margin-bottom: 15px;
+}
+
+h1 {
+   font-size: clamp (45px, 8vw, 90px);
+   margin-bottom: 10px;
+}
+
+h2 {
+   font-size: 28px;
+   margin-bottom: 25px;
+}
+
+ P{
+   max-width: 650px;
+   line-height: 1.7;
+   color: #aaa;
+}
+
+.stack {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-top: 30px;
+}
+
+.stack span {
+   padding: 10px 15px;
+   border: 1px solid #333;
+   border-radius: 20px;
+  color: #ddd;
+}
+
+.projeto img {
+   width: min(800px, 100%);
+   border-radius: 15px;
+   margin: 20px 0;
+}
+
+Links {
+   display: flex;
+   gap: 30px;
+   margin-top: 20px;
+}
+
+links a {
+   color: white;
+   text-decoration: none;
+   border-bottom: 1px solid #00e5ff;
+   padding-bottom: 5px;
+}
+ 
+.Links a:hover {
+   color: #00e5ff;
+}
+
+
